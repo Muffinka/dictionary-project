@@ -35,7 +35,6 @@ export default function Dictionary(props) {
   }
 
   function handlePexelResponse(response) {
-    console.log(response.data);
     setPhotos(response.data.photos);
   }
 
@@ -61,7 +60,8 @@ export default function Dictionary(props) {
             defaultValue={props.defaultKeyword}
           />
           <div className="Hint">
-            <strong>Suggested words:</strong> Cat, Plant, Yoga, Car...
+            <strong>Suggested words:</strong> Freedom, Unity, Victory,
+            Celebration...
           </div>
         </form>
         <Results results={results} />

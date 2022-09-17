@@ -22,6 +22,10 @@ export default function Photos(props) {
       </div>
     );
   } else {
-    return null;
+    return (
+      <div className="Section">
+        <div className="row"></div>
+      </div>
+    );
   }
 }
