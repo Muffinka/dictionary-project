@@ -1,4 +1,3 @@
-import logo from "./favicon.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
 
@@ -6,9 +5,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <div className="Header">DICTIONARY</div>
       </header>
-      <Dictionary />
+      <Dictionary defaultKeyword="Brave" />
       <div className="text-center">
         Go to my&nbsp;&nbsp;
         <a
@@ -21,6 +20,7 @@ function App() {
         </a>
         .
       </div>
+      <br />
     </div>
   );
 }
