@@ -10,7 +10,7 @@ export default function Meaning(props) {
         return (
           <div className="Definition" key={index}>
             <span className="Ghost">
-              <i class="fa-solid fa-ghost"></i>
+              <i className="fa-solid fa-ghost"></i>
             </span>
             {definition.definition}
             <Example example={definition.example} />
